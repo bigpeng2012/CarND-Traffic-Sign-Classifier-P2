@@ -48,6 +48,8 @@ docker run -it --rm --entrypoint "/run.sh" -p 8888:8888 -v `pwd`:/src udacity/ca
 ### Dataset and Repository
 
 1. Download the data set. The classroom has a link to the data set in the "Project Instructions" content. This is a pickled dataset in which we've already resized the images to 32x32. It contains a training, validation and test set.
+[Download the data set](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip).
+
 2. Clone the project, which contains the Ipython notebook and the writeup template.
 ```sh
 git clone https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project
